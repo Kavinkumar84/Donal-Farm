@@ -7,6 +7,8 @@ import ImageCarousel from "./Components/ImageCarousel";
 import Info from "./Components/Info";
 import Servies from "./Components/Servies";
 import Technology from "./Components/Technology";
+import WhyChoose from "./Components/WhyChoose";
+import Empty from "./Components/Empty";
 
 function App() {
   
@@ -18,6 +20,9 @@ function App() {
       <Technology />
       <Info />
       <Servies />
+      <WhyChoose />
+
+      <Empty />
     </div>
   );
 }

@@ -1,0 +1,144 @@
+.choose {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  z-index: 15;
+  border: 2 px solid red;
+}
+.choose_cont {
+  border: 2px solid black;
+  width: 90%;
+  height: 120vh;
+}
+.whole_choose {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.choose_img {
+  width: 100%;
+  padding: 30px;
+  padding-left: 50px;
+}
+.choose_img img {
+  width: 88%;
+  height: 650px;
+  border-radius: 20px;
+}
+.left_choose {
+  width: 50%;
+  position: relative;
+}
+.box_yellow {
+  width: 135px;
+  height: 150px;
+  background-color: #f8c32c;
+  border-radius: 15px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_yellow_sub {
+  border: 1px dashed white;
+  width: 85%;
+  height: 85%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brown_crcl {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #52320a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play {
+  font-size: 18px;
+  color: white;
+}
+.right_choose {
+  width: 50%;
+  /* border: 2px solid red; */
+  
+}
+.right_cont{
+    width: 100%;
+    /* border: 2px solid rgb(11, 4, 4); */
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+.ch_h1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.ch_h1 img{
+    width: 150px;
+    height: 60px;
+}
+.right_cont2{
+    width: 77%;
+    height: 270px;
+    background-color: #52320a;
+    position: absolute;
+    right: 78px;
+    border-radius: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_subcont{
+    width: 90%;
+    height: 80%;
+    /* border: 2px dashed white; */
+    display: flex;
+}
+.circle_tick1{
+   width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 10px;
+  color:#52320a;
+  background-color: #f8c32c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subcont{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+}
+.subLine{
+width: 39%;
+display: flex;
+}
+.vert_line{
+  width: 1px;
+  height: 70%;
+  border: 1px dashed white;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
+}
+.subcont_txt2{
+  width: 80%;
+}
+.subcont_txt1{
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+.subcont_txt2{
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+}

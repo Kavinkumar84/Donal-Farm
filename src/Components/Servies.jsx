@@ -13,7 +13,8 @@ import { Col, Row, Container } from "react-bootstrap";
 
 const Services = () => {
   return (
-    <div className="service">
+    <div className="whl_service">
+        <div className="service">
       <div className="service_cont">
         <div className="curvedBod">
           <img src={img11} alt="Curved section" />
@@ -130,6 +131,8 @@ const Services = () => {
         </div>
       </div>
     </div>
+    </div>
+  
   );
 };
 

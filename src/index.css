@@ -177,12 +177,12 @@ img {
   
 }
 .txt2{
-  font-family: "GlitterySnowfall", sans-serif;
+  /* fo  */
   font-size: 60px;
   /* font-style: inherit; */
 }
 .txt3{
-  font-size: 25px;
+  font-size: 20px;
 }
 .imge1{
   /* margin-top: -30px; */
@@ -419,4 +419,7 @@ img {
 
 .Home_drop{
   z-index: 200;
+}
+.Empty{
+  height: 100vh;
 }
