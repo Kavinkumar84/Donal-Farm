@@ -1,35 +1,115 @@
-.service{
+.service {
   position: relative;
   padding-bottom: 100px;
 }
-.service_cont{
+.service_cont {
   width: 100%;
   height: 500px;
-  
+
   /* border: 2px solid red; */
 }
-.curvedBod img{
+.curvedBod img {
   width: 100%;
   height: 50px;
   /* border: 2px solid black; */
   cursor: pointer;
 }
-.curvedBod{
+.curvedBod {
   position: absolute;
-  bottom: 470px;
+  top: -29px;
 }
 
-.col{
+.col {
   height: 100vh;
-  /* background-color: black; */
+  background-color: #f3f0eb;
 }
-.bgrnd{
-  background-image: url('https://themesflat.co/html/donalfarm/images/item/house-mountain.png');
-  width: 100%;
+.bgrnd {
+  background-image: url("https://themesflat.co/html/donalfarm/images/item/house-mountain.png");
+  width: 50%;
   /* width: 100%; */
   height: 100%;
-  border: 2px solid black;
-z-index: 4;
-background-position: center;
-background-repeat: no-repeat;
+  /* border: 2px solid black; */
+  z-index: 4;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 100px;
+}
+.col_cont{
+  text-align: center;
+}
+.txt10{
+
+  /* border: 2px solid red; */
+  font-size: 45px;
+    line-height: 55px;
+    font-family: "Work Sans", sans-serif;
+    color: #072010;
+    font-weight: 700;
+}
+.ser_cont_box{
+  /* border: 1px solid rgb(23, 23, 23); */
+  /* width: 350px; */
+}
+.serv_cont{
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 50px;
+}
+.ser_crcl{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #f8c32c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.8s ease;
+  position: absolute;
+  z-index: 10 ;
+  left: 110px;
+}
+.ser_crcl img{
+  width: 70%;
+  height: 70%;
+}
+.ser_crcl:hover{
+  transform: rotatey(360deg);
+}
+.ser_cont_box1{
+  position: relative;
+  width: 100%;
+  /* height: 250px; */
+  background-color: #0D401C;
+  top: 80px;
+  border-radius: 15px;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  /* justify-content: center; */
+
+}
+.serv_col_cont{
+  position: relative;
+}
+.ser_cont_box1_txt1{
+  font-size: 22px;
+  font-weight: 700;
+  color: #f3f0eb;
+}
+.yel_line{
+  width: 80px;
+  border: 2px solid #f8c32c;
+}
+.ser_cont_box1_txt2{
+  width: 90%;
+  color: #f3f0eb;
+  font-size: 16px;
+  text-align: center;
+}
+.ser_cont_box1_txt1:hover{
+  color: #f8c32c;
 }

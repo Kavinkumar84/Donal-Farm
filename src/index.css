@@ -271,6 +271,7 @@ img {
 }
 .cont{
   height: 630px;
+  margin-top: -77px;
 }
 .left_info{
   /* border: 2px solid rgb(210, 15, 15); */
@@ -395,7 +396,7 @@ img {
   gap: 10px;
 }
 .crl1:hover{
-  transform: rotatex(360deg);
+  transform: rotatey(360deg);
 }
 .read{
   font-size: 20px;
