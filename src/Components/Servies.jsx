@@ -36,7 +36,7 @@ const Services = () => {
               Duis eleifend euismod arcu, nec faucibus mauris finibus id.
               Integer mattis, tellus non finibus rutrum.
             </div>
-            <img src={img12} alt="" />
+            <img src={img12} style={{height: '30px' , width:'100px'}} alt="" />
             {/* <Container fluid="lg" style={{width :"100%" , border :"2px solid red"}}> */}
             <div className="serv_cont">
               <Row>

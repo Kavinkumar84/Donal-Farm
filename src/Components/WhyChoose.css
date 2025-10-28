@@ -6,7 +6,7 @@
   border: 2 px solid red;
 }
 .choose_cont {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 90%;
   height: 120vh;
 }
@@ -81,8 +81,8 @@
     align-items: center;
 }
 .ch_h1 img{
-    width: 150px;
-    height: 60px;
+    width: 100px;
+    height: 30px;
 }
 .right_cont2{
     width: 77%;

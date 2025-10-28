@@ -9,6 +9,7 @@ import Servies from "./Components/Servies";
 import Technology from "./Components/Technology";
 import WhyChoose from "./Components/WhyChoose";
 import Empty from "./Components/Empty";
+import Commitment from "./Components/Commitment";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Info />
       <Servies />
       <WhyChoose />
+      <Commitment />
 
       <Empty />
     </div>
