@@ -3,6 +3,7 @@ import img8 from "../assets/8.png";
 import img9 from "../assets/9.png";
 import img10 from "../assets/10.png";
 import { TiTick } from "react-icons/ti";
+import './Info.css'
 const Info = () => {
   return (
     <div className="d-flex justify-content-center">

@@ -3,15 +3,12 @@ import img1 from "../assets/1.png";
 import img2 from "../assets/2.png";
 import img3 from "../assets/3.png";
 import img4 from "../assets/4.png";
-import { Carousel, Col, Row, Container } from "react-bootstrap";
-import img5 from "../assets/5.png";
-import img6 from "../assets/6.png";
-import img7 from "../assets/7.png";
-
+import { Carousel } from "react-bootstrap";
+import './ImageCarousel.css'
 const ImageCarousel = () => {
   return (
     <div className="caro">
-      <div style={{ position: "relative" }}>
+      <div className="carousel">
         <Carousel fade>
           <Carousel.Item className="captions">
             <img src={img1} alt="Test Img" />
@@ -81,50 +78,8 @@ const ImageCarousel = () => {
         </Carousel>
       </div>
       <div className="imge1">
-        <img src={img4} alt="Test Img" />
+        <img src={img4} alt="" />
       </div>
-      {/* <div className="cont">
-        <div className="yellow">
-          <div className="box_cont">
-            <Container fluid="xl">
-              <Row>
-                <Col lg={4}>
-                  <div
-                    className="box"
-                    style={{ backgroundImage: `url(${img5})` }}
-                  >
-                    <div className="box_txt bg-light">
-                      We Use New Technology
-                    </div>
-                    <div className="hov_txt"></div>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div
-                    className="box"
-                    style={{ backgroundImage: `url(${img6})` }}
-                  >
-                    <div className="box_txt bg-light">Making Healthy Foods</div>
-                  </div>
-                </Col>
-                <Col lg={4}>
-                  <div
-                    className="box"
-                    style={{ backgroundImage: `url(${img7})` }}
-                  >
-                    <div className="box_txt bg-light ">
-                      Reforming In The Systems
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-      </div> */}
-      <br />
-      <br />
-      <br />
     </div>
   );
 };

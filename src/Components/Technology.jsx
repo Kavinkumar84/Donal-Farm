@@ -3,6 +3,7 @@ import {Col, Row, Container } from "react-bootstrap";
 import img5 from "../assets/5.png";
 import img6 from "../assets/6.png";
 import img7 from "../assets/7.png";
+import './Technology.css'
 
 const Technology = () => {
   return (

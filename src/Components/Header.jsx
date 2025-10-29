@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+import "./Header.css";
 import { Fence } from "lucide-react";
 const Header = () => {
   return (

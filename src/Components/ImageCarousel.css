@@ -1,0 +1,123 @@
+.caro {
+  position: relative;
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+.caro img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.captions {
+  height: 100%;
+  width: 100%;
+}
+.txt {
+  width: 60%;
+  height: 100%;
+  margin-left: -60px;
+  margin-top: -400px;
+  text-align: left;
+}
+.txt1 {
+  color: #f8c32c;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Farmhouse", sans-serif;
+}
+.txt2 {
+  font-size: 60px;
+}
+.txt3 {
+  font-size: 20px;
+}
+.imge1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; /* ensures it's above carousel images */
+}
+
+.imge1 img {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+.carousel{
+  height: max-content;
+  
+}
+@media (max-width: 1440px) {
+  .txt {
+    width: 70%;
+    margin-top: -320px;
+    margin-left: -40px;
+  }
+  .txt2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 992px) {
+  .txt {
+    width: 80%;
+    margin-left: 0;
+    margin-top: -250px;
+    text-align: center;
+  }
+  .txt1 {
+    font-size: 20px;
+  }
+  .txt2 {
+    font-size: 36px;
+  }
+  .txt3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .txt {
+    width: 90%;
+    margin-top: -200px;
+    text-align: center;
+  }
+  .txt1 {
+    font-size: 18px;
+  }
+  .txt2 {
+    font-size: 28px;
+  }
+  .txt3 {
+    font-size: 16px;
+  }
+  .touch1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .txt {
+    width: 100%;
+    margin-top: -150px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .txt1 {
+    font-size: 16px;
+  }
+  .txt2 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  .txt3 {
+    font-size: 14px;
+  }
+  .imge1 {
+    height: 20px;
+    bottom: 30px;
+  }
+  .touch1 {
+    font-size: 10px;
+  }
+}

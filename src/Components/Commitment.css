@@ -20,6 +20,7 @@
     font-weight: 800;
 }
 .whole_comm_cont{
+    min-height: 100vh;
     padding-left: 50px;
     display: flex;
 }
