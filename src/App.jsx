@@ -11,13 +11,14 @@ import WhyChoose from "./Components/WhyChoose";
 import Empty from "./Components/Empty";
 import Commitment from "./Components/Commitment";
 import Questions from "./Components/Questions";
+import Discover from "./Components/Discover";
 
 function App() {
   
 
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <ImageCarousel />
       <Technology />
       <Info />
@@ -25,6 +26,7 @@ function App() {
       <WhyChoose />
       <Commitment />
       <Questions />
+      <Discover />
 
       <Empty />
     </div>
