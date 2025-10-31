@@ -12,6 +12,8 @@ import Empty from "./Components/Empty";
 import Commitment from "./Components/Commitment";
 import Questions from "./Components/Questions";
 import Discover from "./Components/Discover";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   
@@ -19,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ImageCarousel />
+      {/* <ImageCarousel />
       <Technology />
       <Info />
       <Servies />
@@ -27,8 +29,10 @@ function App() {
       <Commitment />
       <Questions />
       <Discover />
+      <Contact />
+      <Footer /> */}
 
-      <Empty />
+      {/* <Empty /> */}
     </div>
   );
 }

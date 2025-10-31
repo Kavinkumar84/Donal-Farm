@@ -8,14 +8,12 @@ import './Technology.css'
 const Technology = () => {
   return (
     <div>
-          <div className="cont">
-                <div className="yellow">
-                  <div className="box_cont">
+          <div className="Technology_cont">
+                <div className="box_cont">
                     <Container fluid="xl">
-                      <Row>
+                      <Row> 
                         <Col lg={4}>
-                          <div
-                            className="box"
+                          <div className="box"
                             style={{ backgroundImage: `url(${img5})` }}
                           >
                             <div className="box_txt bg-light">
@@ -45,7 +43,6 @@ const Technology = () => {
                       </Row>
                     </Container>
                   </div>
-                </div>
               </div>
     </div>
   )

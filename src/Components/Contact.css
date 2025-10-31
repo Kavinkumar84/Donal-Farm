@@ -1,0 +1,133 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+}
+.Contact_container {
+  width: 85%;
+  /* height: 100vh; */
+  /* border: 2px solid red; */
+}
+.Contact_col {
+  /* border: 2px solid rgb(4, 4, 4); */
+  height: 120vh;
+  /* padding-bottom: 30px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.Contact_col1 {
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid green; */
+  border-radius: 20px;
+  /* background-color: #F8C32C; */
+  margin-bottom: 30px;
+}
+.Contact_col1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.Contact_col2 {
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid green; */
+  border-radius: 20px;
+  background-color: #f8c32c;
+}
+.Contact_col_sub {
+  width: 90%;
+  height: 90%;
+  border: 1px dashed white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crcl {
+  width: 70px;
+  height: 70px;
+  background-color: #52320a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.Contact_col_sub1 {
+  display: flex;
+  width: 80%;
+  height: 30%;
+  /* border: 1px solid white; */
+  align-items: center;
+  gap: 25px;
+}
+.Contact_txt1 {
+  font-size: 18px;
+  /* line-height: 26px; */
+  font-weight: 500;
+}
+.Container_col_sub{
+    width:  85%;
+    height: 85%;
+    /* border: 1px solid rgb(5, 5, 5); */
+}
+.Container_col_sub_txt1{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+.Container_whead_img{
+  padding: 20px 0px;
+}
+.Container_whead_img img{
+    width: 100px;
+    height: 25px;
+}
+.imp1 input, .imp1 select{
+    width: 49%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 15px;
+     background-color: #3D6649;
+     border: none;
+}
+.Contact_form{
+  width: 100%;
+}
+.imp1{
+  display: flex;
+  justify-content: space-between;
+}
+.imp2 input{
+  width: 100%;
+  min-height: 230px;
+  border-radius: 30px;
+   background-color: #3D6649;
+   border: none;
+}
+select {
+  color: white;      /* Change to your desired color */
+  opacity: 1;       /* Ensures full visibility in some browsers */
+}
+option{
+ background-color: #3D6649;
+  color: black;
+}
+.Contact_form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right_txt1_cont{
+  margin-top: 30px;
+  color: white;
+}
+#check{
+  
+}

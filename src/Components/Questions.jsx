@@ -86,11 +86,11 @@ const Questions = () => {
                     today!
                   </div>
                   <div className="touch1">
-                  <span>See our Services</span>
-                  <div className="touch_arr">
-                    <i class="bi bi-caret-right"></i>
+                    <span>See our Services</span>
+                    <div className="touch_arr">
+                      <i class="bi bi-caret-right"></i>
+                    </div>
                   </div>
-                </div>
                 </div>
               </div>
             </div>

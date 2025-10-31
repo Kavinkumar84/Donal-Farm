@@ -1,42 +1,25 @@
-
-
-.yellow{
-  /* position: relative;   */
-  /* margin-top: 100px; */
-  height: 525px;
-  width: 100%;
-  background-color: #f8c32c;
-  padding-top: 75px;
-  /* z-index: 1; */
+.Technology_cont{
+  background: linear-gradient(to bottom,  #f8c32c 70%, white 30%);
+  padding-top: 90px;
+  padding-bottom: 80px;
+  /* border: 2px solid red; */
 }
 .box{
-  /* position: absolute; */
-  /* width: 85%; */
   min-height: 500px;
-  /* border: 2px solid rgb(9, 9, 9); */
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   display: flex;
   flex-direction: column-reverse;
-  /* display: grid; */
-  /* grid-template-columns: repeat(3,1fr); */
-  /* z-index: 1;
-  top: 100px; */
 }
 .box_cont{
-  /* position: absolute; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* z-index: 5; */
-  /* bottom: -60px; */
 }
 .sub_box{
   width: 480px;
   height: 450px;
-  /* border: 2px solid black; */
 }
 .box_txt{
   height: 75px;
@@ -53,7 +36,7 @@
   /* display: none; */
 
 }
-.box_txt:hover{
+/* .box_txt:hover{
   display: none;
 }
 .box_txt:hover .hov_txt{
@@ -66,4 +49,4 @@
   background-color: #fefefe;
   border-radius: 10px;
   display: none;
-}
+} */
