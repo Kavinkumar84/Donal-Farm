@@ -3,12 +3,13 @@ import "./Header.css";
 import { Fence } from "lucide-react";
 import styled from 'styled-components';
 import Checkbox from "../Buttons/Checkbox";
+import logo from '../assets/logo.png'
 const Header = () => {
   return (
     <div>
       <header>
         <div className="image">
-          <img src="src/assets/logo.png" alt="" />
+          <img src={logo} alt="" />
         </div>
         <div className="Navbar ">
           <nav>
