@@ -4,6 +4,7 @@ import { Fence } from "lucide-react";
 import styled from 'styled-components';
 import Checkbox from "../Buttons/Checkbox";
 import logo from '../assets/logo.png'
+
 const Header = () => {
   return (
     <div>

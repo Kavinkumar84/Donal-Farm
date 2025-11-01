@@ -21,8 +21,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <ImageCarousel />
-      <Technology />
+      {/* <ImageCarousel /> */}
+      {/* <Technology />
       <Info />
       <Servies />
       <WhyChoose />

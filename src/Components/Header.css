@@ -151,21 +151,28 @@ img {
     display: none;
   }
 }
-@media (max-width: 1197px){
+@media(max-width: 1250px){
+.Navbar nav{
+    gap: 20px;
+  }
+}
+@media (max-width: 1245px){
   .Navbar, #fence{
     display: none;
   }
   .menu_bar{
     display: block;
   }
+  
 }
 @media (max-width: 768px){
-  .touch{
+ .icon{
     display: none;
   }
 }
-@media (max-width: 425px){
-  .icon{
-    display: none;
+@media (max-width: 522px){
+   .touch{
+   display: none;
   }
+ 
 }
